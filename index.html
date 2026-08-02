@@ -1,10 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Hamza Oumour Github Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Hamza Oumour | Embedded Systems & Software Developer</title>
 </head>
+
 <body>
-    <h1>Hello world</h1>
+
+    <header>
+        <!-- Always use semantic HTML because it matters for SEO (Search Engine Optimization) and for accessibility (Disabled people)-->
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navigation">
+            <!--Hashtags here will navigate to the element with id #services-->
+            <a href="#services">Experiences</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Hello, my name is<br> <span id="main-name">Hamza Oumour</span></h2>
+            <!-- <h3>that is passionate about building games & websites</h3> -->
+            <h2 id="main-description"> Embedded Systems & Software Developer</h2>
+          <p>
+
+I'm a self-taught developer interested in embedded systems,
+IoT,
+automation,
+algorithmic trading,
+and software development.
+
+Previously, I worked as an Embedded Systems Freelancer on Fiverr,
+contributing to MVP prototypes for international clients.
+I also participated as the Arduino Programmer in the Tremor Watch project
+and created M-DuinoCore, a custom microcontroller platform launched on Indiegogo.
+
+</p>
+            </p>
+            <a href="#projects" class="main-btn">View my Projects</a>
+            <div class="social-icons">
+                <a href="https://www.fiverr.com/hamuzao/prototype-your-arduino-bluetooth-project" target="_blank"><i class="fa-solid fa-eye-slash"></i></a>
+                <a href="https://www.linkedin.com/in/hamza-oumour-511b16173" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hamzaoumourca-source" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:hamza.oumour.ca@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards" id="services">
+        <h2 class="title">Experiences</h2>
+        <div class="content">
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-unity"></i>
+                </div>
+                <div class="info">
+                    <h3>Game Development</h3>
+                    <p>Connecting Unity engine into the real world.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-microchip"></i>
+                </div>
+                <div class="info">
+                    <h3>Embedded systems</h3>
+                    <p>Turning Ideas into MVPs with Arduino & ESP32.</p>
+                </div>
+            </div>
+          
+           <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <div class="info">
+                    <h3>MQL5 Expert Advisors</h3>
+                    <p>Where Code Meets Markets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="projects-content">
+            <div class="project-optional">
+                <h2 id="featured-projects">Featured Projects</h2>
+            </div>
+            <div class="project-card">
+
+                <div class="project-image">
+                    <a href="https://www.indiegogo.com/en/projects/hamzaoumour/m-duinocore-it-s-more-than-an-arduino-in-a-chip#/" class="project-a" target="_blank">
+                        <img src="images/m-duinocore-it-s-more-than-an-arduino-in-a-chip_Logo.png" alt="M-Duinocore Logo" class="border">
+                    </a>
+                </div>
+                <div class="project-info">
+                    <a href="https://www.indiegogo.com/en/projects/hamzaoumour/m-duinocore-it-s-more-than-an-arduino-in-a-chip#/" class="project-a" target="_blank">
+                        <h3>M-DuinoCore</h3>
+                    </a>
+                    <p>
+                      A custom AVR-based microcontroller platform created to go beyond the standard Arduino 
+                      experience. Designed for embedded development, IoT prototyping, and rapid MVP creation, 
+                      the project was showcased through an Indiegogo crowdfunding campaign.
+                  </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="projects-content">
+            <div class="project-optional">
+            </div>
+            <div class="project-card">
+
+                <div class="project-image">
+                    <a href="https://www.pmu.edu.sa/attachments/academics/pdf/udp/coe/dept/me/fall2019_2020/designing_tremor_watch_report.pdf" class="project-a" target="_blank">
+                        <img src="images/designing_tremor_watch_report_Logo.png" alt="Designing tremor watch report Logo" class="border">
+                    </a>
+
+                </div>
+                <div class="project-info">
+                    <a href="https://www.pmu.edu.sa/attachments/academics/pdf/udp/coe/dept/me/fall2019_2020/designing_tremor_watch_report.pdf" class="project-a" target="_blank">
+                        <h3>Tremor Watch (pmu.edu.sa)</h3>
+                    </a>
+                    <p>
+                      A wearable embedded system designed to analyze hand tremors and provide real-time 
+                      haptic feedback. As the project's Arduino Programmer, I contributed to firmware 
+                      development and hardware integration for the prototype.
+                  </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <div class="contact-title">
+            <h2 class="title">Get In Touch</h2>
+        </div>
+        <div class="contact-info">
+            <p>
+              This portfolio showcases my projects and technical journey.
+          </p>
+        </div>
+        <div class="content">
+            <a href="mailto:hamza.oumour.ca@gmail.com" class="contact-btn">Send an Email</a>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights<span>&copy;</span><span>Hamza Oumour</span></p>
+    </footer>
 </body>
+
 </html>
